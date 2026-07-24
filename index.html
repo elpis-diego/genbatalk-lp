@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>現場レポート｜話すだけで、すぐに報告書。</title>
+<meta name="description" content="作業のあと、事務所に戻ってまた書類。あの時間、もう要りません。現場で声に出すだけ。AIが報告書に整えて、写真も署名もまとめて1枚に。設備メンテ20年の現場から生まれたアプリ。">
+<meta property="og:type" content="website">
+<meta property="og:title" content="現場レポート｜話すだけで、すぐに報告書。">
+<meta property="og:description" content="現場で声に出すだけ。AIが報告書に整えて、写真も署名もまとめて1枚に。設備メンテ20年の現場から生まれたアプリ。App Storeで近日公開。">
+<meta property="og:locale" content="ja_JP">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="現場レポート｜話すだけで、すぐに報告書。">
+<meta name="twitter:description" content="現場で声に出すだけ。AIが報告書に整えて、写真も署名もまとめて1枚に。App Storeで近日公開。">
+<script src="https://cdn.tailwindcss.com"></script>
+<script src="https://unpkg.com/lucide@latest"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700;900&display=swap" rel="stylesheet">
+<style>
+  body { font-family: 'Noto Sans JP', sans-serif; background:#F5EFE2; }
+</style>
+</head>
+<body class="text-[#2D2A24] antialiased selection:bg-[#5E7B4D]/20">
+
+  <!-- ===== NAV ===== -->
+  <nav class="sticky top-0 z-50 bg-[#F5EFE2]/85 backdrop-blur border-b border-[#E4DCC9]">
+    <div class="max-w-5xl mx-auto px-5 h-14 flex items-center justify-between">
+      <div class="flex items-center gap-2">
+        <div class="w-8 h-8 rounded-xl bg-[#5E7B4D] flex items-center justify-center">
+          <i data-lucide="mic" class="w-4 h-4 text-white" stroke-width="2.5"></i>
+        </div>
+        <span class="font-bold tracking-tight text-[#2D2A24]">現場レポート</span>
+      </div>
+      <a href="#cta" class="text-xs sm:text-sm font-medium bg-[#5E7B4D] hover:bg-[#4A6340] text-white px-3.5 py-2 rounded-lg transition-colors">先行案内を受け取る</a>
+    </div>
+  </nav>
+
+  <!-- ===== HERO ===== -->
+  <header class="relative overflow-hidden">
+    <div class="max-w-5xl mx-auto px-5 pt-14 pb-16 sm:pt-20 sm:pb-24 grid md:grid-cols-2 gap-12 items-center">
+      <div>
+        <div class="inline-flex items-center gap-2 bg-white border border-[#E4DCC9] rounded-full px-3 py-1.5 mb-6 shadow-sm">
+          <i data-lucide="sparkles" class="w-3.5 h-3.5 text-[#C79A3E]"></i>
+          <span class="text-xs text-[#6F6B60]">現場でサッと話すだけ・報告書の手間をゼロに</span>
+        </div>
+        <h1 class="text-4xl sm:text-5xl font-black tracking-tight text-[#2D2A24] leading-[1.2]">
+          報告書、<br><span class="text-[#5E7B4D]">しゃべって終わり。</span>
+        </h1>
+        <p class="mt-6 text-base sm:text-lg text-[#5B574C] leading-relaxed">
+          作業のあと、事務所に戻ってまた書類。あの時間、もう要りません。現場で声に出すだけ。AIが報告書に整えて、写真も署名もまとめて1枚に。
+        </p>
+        <div class="mt-8">
+          <a href="#cta" class="group inline-flex items-center justify-center gap-2 bg-[#5E7B4D] hover:bg-[#4A6340] text-white font-bold px-6 py-3.5 rounded-2xl transition-colors shadow-lg shadow-[#5E7B4D]/20">
+            <i data-lucide="bell" class="w-5 h-5" stroke-width="2"></i>
+            公開のお知らせを受け取る
+            <i data-lucide="arrow-right" class="w-4 h-4 group-hover:translate-x-0.5 transition-transform" stroke-width="2"></i>
+          </a>
+        </div>
+        <p class="mt-5 text-xs text-[#8A8578] flex flex-wrap items-center gap-x-4 gap-y-1">
+          <span class="flex items-center gap-1.5"><i data-lucide="hard-hat" class="w-3.5 h-3.5 text-[#5E7B4D]"></i>設備メンテ20年の現場から生まれたアプリ</span>
+          <span class="flex items-center gap-1.5"><i data-lucide="smartphone" class="w-3.5 h-3.5 text-[#5E7B4D]"></i>iPhoneひとつでOK</span>
+        </p>
+      </div>
+
+      <!-- iPhone mockup : ホーム画面 -->
+      <div class="flex justify-center md:justify-end">
+        <div class="relative w-[248px] h-[506px] rounded-[2.8rem] bg-[#20242a] shadow-2xl shadow-[#3D5136]/25 p-2.5">
+          <div class="absolute top-3 left-1/2 -translate-x-1/2 w-24 h-6 bg-[#20242a] rounded-b-2xl z-10"></div>
+          <div class="w-full h-full rounded-[2.3rem] bg-white overflow-hidden flex flex-col">
+            <!-- status bar -->
+            <div class="flex items-center justify-between px-5 pt-3 pb-1 text-[9px] text-[#2D2A24] font-medium">
+              <span>9:41</span>
+              <span class="flex items-center gap-1"><i data-lucide="signal" class="w-3 h-3"></i><i data-lucide="wifi" class="w-3 h-3"></i><i data-lucide="battery-full" class="w-3.5 h-3.5"></i></span>
+            </div>
+            <!-- header -->
+            <div class="px-4 pt-1 flex items-center justify-between text-[#5B574C]">
+              <i data-lucide="menu" class="w-4 h-4"></i>
+              <i data-lucide="bell" class="w-4 h-4"></i>
+            </div>
+            <div class="px-4 pt-2">
+              <div class="flex items-center gap-1.5">
+                <i data-lucide="mic" class="w-4 h-4 text-[#5E7B4D]"></i>
+                <p class="text-base font-bold tracking-tight text-[#2D2A24]">現場レポート</p>
+              </div>
+              <p class="text-[9px] text-[#8A8578] mt-0.5">話すだけで報告書に</p>
+            </div>
+            <!-- cards -->
+            <div class="flex-1 px-4 pt-3 space-y-2.5">
+              <div class="bg-[#5E7B4D] rounded-2xl p-3 flex items-center gap-2.5 shadow-md shadow-[#5E7B4D]/30">
+                <div class="w-9 h-9 rounded-full bg-white flex items-center justify-center shrink-0"><i data-lucide="mic" class="w-4 h-4 text-[#5E7B4D]" stroke-width="2.5"></i></div>
+                <div>
+                  <p class="text-[12px] font-bold text-white leading-tight">話して記録</p>
+                  <p class="text-[8px] text-white/80 mt-0.5">現場の内容を話すだけ</p>
+                </div>
+              </div>
+              <div class="bg-white border border-[#ECE6D8] rounded-2xl p-3 flex items-center gap-2.5 shadow-sm">
+                <div class="w-9 h-9 rounded-full bg-[#EAF1E1] flex items-center justify-center shrink-0"><i data-lucide="camera" class="w-4 h-4 text-[#5E7B4D]"></i></div>
+                <div>
+                  <p class="text-[12px] font-bold text-[#2D2A24] leading-tight">エビデンスを残す</p>
+                  <p class="text-[8px] text-[#8A8578] mt-0.5">写真や書類を添付</p>
+                </div>
+              </div>
+              <div class="bg-white border border-[#ECE6D8] rounded-2xl p-3 flex items-center gap-2.5 shadow-sm">
+                <div class="w-9 h-9 rounded-full bg-[#EAF1E1] flex items-center justify-center shrink-0"><i data-lucide="lock" class="w-4 h-4 text-[#5E7B4D]"></i></div>
+                <div class="flex-1">
+                  <div class="flex items-center gap-1.5">
+                    <p class="text-[12px] font-bold text-[#2D2A24] leading-tight">過去の記録</p>
+                    <span class="text-[7px] bg-[#F3E7C9] text-[#9A7B2E] px-1.5 py-0.5 rounded-full font-medium">有料版</span>
+                  </div>
+                  <p class="text-[8px] text-[#8A8578] mt-0.5">すべての記録を検索・閲覧</p>
+                </div>
+              </div>
+            </div>
+            <!-- bottom illustration -->
+            <div class="h-16 bg-gradient-to-t from-[#DDE7CE] to-transparent flex items-end justify-center gap-1 px-4 pb-2">
+              <div class="w-5 h-8 bg-[#B9C79E] rounded-sm"></div>
+              <div class="w-6 h-11 bg-[#A7B98A] rounded-sm"></div>
+              <div class="w-4 h-6 bg-[#B9C79E] rounded-sm"></div>
+              <i data-lucide="truck" class="w-5 h-5 text-[#6E8F5A] mb-0.5"></i>
+              <div class="w-5 h-9 bg-[#A7B98A] rounded-sm"></div>
+              <div class="w-4 h-7 bg-[#B9C79E] rounded-sm"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- ===== 痛みの場面 ===== -->
+  <section class="bg-white border-y border-[#EFE9DA]">
+    <div class="max-w-3xl mx-auto px-5 py-20 sm:py-24">
+      <div class="border-l-[3px] border-[#5E7B4D] pl-6 sm:pl-8">
+        <p class="text-lg sm:text-2xl font-medium text-[#2D2A24] leading-loose tracking-tight">
+          現場は昼に終わった。手も汗も乾いた。<br>
+          なのに夜、事務所でまた報告書。<br>
+          <span class="text-[#8A8578] text-base sm:text-xl">「作業前の状況、なんて書くんだっけ」<br>「部品の型番どれだ」</span><br>
+          ——一日の一番しんどい時間が、<br>実は作業じゃなくて<span class="text-[#5E7B4D] font-bold">コレ</span>だったりする。
+        </p>
+        <p class="mt-8 text-[#5B574C] text-base sm:text-lg font-medium">
+          俺もずっとそうだった。だから、これを作った。
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Before → After ===== -->
+  <section>
+    <div class="max-w-4xl mx-auto px-5 py-20 sm:py-24">
+      <h2 class="text-2xl sm:text-3xl font-bold tracking-tight text-[#2D2A24] text-center mb-3">こんなに変わる</h2>
+      <p class="text-center text-[#8A8578] text-sm mb-12">左が今まで、右が現場レポート。</p>
+      <div class="space-y-3">
+        <div class="hidden sm:grid grid-cols-[130px_1fr_1fr] gap-3 px-4 pb-1 text-xs">
+          <span></span>
+          <span class="text-[#A39C8B]">これまで</span>
+          <span class="text-[#5E7B4D] font-medium">現場レポート</span>
+        </div>
+        <div class="grid grid-cols-1 sm:grid-cols-[130px_1fr_1fr] gap-2 sm:gap-3 items-center bg-white rounded-2xl p-4 border border-[#ECE6D8] shadow-sm">
+          <div class="flex items-center gap-2 font-bold text-[#2D2A24] text-sm"><i data-lucide="file-text" class="w-4 h-4 text-[#5E7B4D]"></i>報告書</div>
+          <div class="text-[#8A8578] text-sm flex items-start gap-2"><i data-lucide="x" class="w-4 h-4 text-[#C7BFAC] mt-0.5 shrink-0"></i>夜、事務所でキーボード</div>
+          <div class="text-[#2D2A24] text-sm flex items-start gap-2 font-medium"><i data-lucide="check" class="w-4 h-4 text-[#5E7B4D] mt-0.5 shrink-0"></i>現場で声に出して終わり</div>
+        </div>
+        <div class="grid grid-cols-1 sm:grid-cols-[130px_1fr_1fr] gap-2 sm:gap-3 items-center bg-white rounded-2xl p-4 border border-[#ECE6D8] shadow-sm">
+          <div class="flex items-center gap-2 font-bold text-[#2D2A24] text-sm"><i data-lucide="alert-circle" class="w-4 h-4 text-[#5E7B4D]"></i>書き忘れ</div>
+          <div class="text-[#8A8578] text-sm flex items-start gap-2"><i data-lucide="x" class="w-4 h-4 text-[#C7BFAC] mt-0.5 shrink-0"></i>後で客に電話して確認</div>
+          <div class="text-[#2D2A24] text-sm flex items-start gap-2 font-medium"><i data-lucide="check" class="w-4 h-4 text-[#5E7B4D] mt-0.5 shrink-0"></i>AIが空欄を教える</div>
+        </div>
+        <div class="grid grid-cols-1 sm:grid-cols-[130px_1fr_1fr] gap-2 sm:gap-3 items-center bg-white rounded-2xl p-4 border border-[#ECE6D8] shadow-sm">
+          <div class="flex items-center gap-2 font-bold text-[#2D2A24] text-sm"><i data-lucide="shield" class="w-4 h-4 text-[#5E7B4D]"></i>証拠</div>
+          <div class="text-[#8A8578] text-sm flex items-start gap-2"><i data-lucide="x" class="w-4 h-4 text-[#C7BFAC] mt-0.5 shrink-0"></i>記憶と、あいまいな写真</div>
+          <div class="text-[#2D2A24] text-sm flex items-start gap-2 font-medium"><i data-lucide="check" class="w-4 h-4 text-[#5E7B4D] mt-0.5 shrink-0"></i>声＋写真＋日時をセット保存</div>
+        </div>
+        <div class="grid grid-cols-1 sm:grid-cols-[130px_1fr_1fr] gap-2 sm:gap-3 items-center bg-white rounded-2xl p-4 border border-[#ECE6D8] shadow-sm">
+          <div class="flex items-center gap-2 font-bold text-[#2D2A24] text-sm"><i data-lucide="pen-tool" class="w-4 h-4 text-[#5E7B4D]"></i>署名</div>
+          <div class="text-[#8A8578] text-sm flex items-start gap-2"><i data-lucide="x" class="w-4 h-4 text-[#C7BFAC] mt-0.5 shrink-0"></i>紙に印刷して後日もらう</div>
+          <div class="text-[#2D2A24] text-sm flex items-start gap-2 font-medium"><i data-lucide="check" class="w-4 h-4 text-[#5E7B4D] mt-0.5 shrink-0"></i>その場で指サイン→PDF</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== 使い方4ステップ ===== -->
+  <section class="bg-white border-y border-[#EFE9DA]">
+    <div class="max-w-4xl mx-auto px-5 py-20 sm:py-24">
+      <h2 class="text-2xl sm:text-3xl font-bold tracking-tight text-[#2D2A24] text-center mb-14">使い方はカンタン4ステップ</h2>
+      <div class="grid grid-cols-2 lg:grid-cols-4 gap-4">
+        <div class="bg-[#FBF8F1] rounded-2xl p-5 border border-[#EFE9DA]">
+          <div class="flex items-center gap-2 mb-3">
+            <span class="w-6 h-6 rounded-full bg-[#5E7B4D] text-white text-xs font-bold flex items-center justify-center">1</span>
+            <div class="w-9 h-9 rounded-xl bg-[#EAF1E1] flex items-center justify-center"><i data-lucide="home" class="w-4.5 h-4.5 text-[#5E7B4D]"></i></div>
+          </div>
+          <h3 class="font-bold text-[#2D2A24] text-sm mb-1.5">ホーム</h3>
+          <p class="text-xs text-[#6F6B60] leading-relaxed">「話して記録」を押すだけ。特別な操作は不要。</p>
+        </div>
+        <div class="bg-[#FBF8F1] rounded-2xl p-5 border border-[#EFE9DA]">
+          <div class="flex items-center gap-2 mb-3">
+            <span class="w-6 h-6 rounded-full bg-[#5E7B4D] text-white text-xs font-bold flex items-center justify-center">2</span>
+            <div class="w-9 h-9 rounded-xl bg-[#EAF1E1] flex items-center justify-center"><i data-lucide="mic" class="w-4.5 h-4.5 text-[#5E7B4D]"></i></div>
+          </div>
+          <h3 class="font-bold text-[#2D2A24] text-sm mb-1.5">話して記録</h3>
+          <p class="text-xs text-[#6F6B60] leading-relaxed">「エアコン点検、ドレン詰まりを清掃」普段の話し方でOK。AIが文字起こし。</p>
+        </div>
+        <div class="bg-[#FBF8F1] rounded-2xl p-5 border border-[#EFE9DA]">
+          <div class="flex items-center gap-2 mb-3">
+            <span class="w-6 h-6 rounded-full bg-[#5E7B4D] text-white text-xs font-bold flex items-center justify-center">3</span>
+            <div class="w-9 h-9 rounded-xl bg-[#EAF1E1] flex items-center justify-center"><i data-lucide="file-text" class="w-4.5 h-4.5 text-[#5E7B4D]"></i></div>
+          </div>
+          <h3 class="font-bold text-[#2D2A24] text-sm mb-1.5">テンプレート生成</h3>
+          <p class="text-xs text-[#6F6B60] leading-relaxed">必要な項目を自動で整理。そのまま使えるA4レポートに。</p>
+        </div>
+        <div class="bg-[#FBF8F1] rounded-2xl p-5 border border-[#EFE9DA]">
+          <div class="flex items-center gap-2 mb-3">
+            <span class="w-6 h-6 rounded-full bg-[#5E7B4D] text-white text-xs font-bold flex items-center justify-center">4</span>
+            <div class="w-9 h-9 rounded-xl bg-[#EAF1E1] flex items-center justify-center"><i data-lucide="folder-check" class="w-4.5 h-4.5 text-[#5E7B4D]"></i></div>
+          </div>
+          <h3 class="font-bold text-[#2D2A24] text-sm mb-1.5">保存・エビデンス</h3>
+          <p class="text-xs text-[#6F6B60] leading-relaxed">写真や書類と一緒に保存。PDF出力・共有もその場で。</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== 目玉① A4レポート ===== -->
+  <section>
+    <div class="max-w-4xl mx-auto px-5 py-20 sm:py-24 grid md:grid-cols-2 gap-12 items-center">
+      <div>
+        <span class="text-xs font-bold text-[#5E7B4D] tracking-widest">POINT 01</span>
+        <h2 class="mt-3 text-2xl sm:text-3xl font-bold tracking-tight text-[#2D2A24] leading-snug">話した声が、<br>そのままA4報告書に</h2>
+        <p class="mt-6 text-[#5B574C] leading-relaxed">
+          世の中のAIは「文章にして、はい終わり」。<br>
+          現場レポートは違う。<span class="text-[#5E7B4D] font-medium">日付・現場名・作業内容・原因・対応・今後の対応まで、必要な項目を自動で振り分ける。</span><br>
+          足りない欄は教えてくれるから、言い忘れも起きません。
+        </p>
+      </div>
+      <!-- A4 preview card -->
+      <div class="bg-white rounded-2xl p-5 border border-[#ECE6D8] shadow-md">
+        <p class="text-center text-sm font-bold text-[#2D2A24] mb-3 tracking-wide">作 業 報 告 書</p>
+        <div class="text-[11px] border border-[#E4DCC9] rounded-lg overflow-hidden">
+          <div class="grid grid-cols-[64px_1fr]"><div class="bg-[#F5F1E6] px-2 py-1.5 border-b border-r border-[#E4DCC9] text-[#6F6B60]">日付</div><div class="px-2 py-1.5 border-b border-[#E4DCC9]">2024年5月20日（月）</div></div>
+          <div class="grid grid-cols-[64px_1fr]"><div class="bg-[#F5F1E6] px-2 py-1.5 border-b border-r border-[#E4DCC9] text-[#6F6B60]">現場名</div><div class="px-2 py-1.5 border-b border-[#E4DCC9]">◯◯邸</div></div>
+          <div class="grid grid-cols-[64px_1fr]"><div class="bg-[#F5F1E6] px-2 py-1.5 border-b border-r border-[#E4DCC9] text-[#6F6B60]">作業内容</div><div class="px-2 py-1.5 border-b border-[#E4DCC9]">エアコン点検</div></div>
+          <div class="grid grid-cols-[64px_1fr]"><div class="bg-[#F5F1E6] px-2 py-1.5 border-b border-r border-[#E4DCC9] text-[#6F6B60]">状況</div><div class="px-2 py-1.5 border-b border-[#E4DCC9] text-[#5B574C]">室内機の水漏れを確認。ドレンホースの詰まりあり。</div></div>
+          <div class="grid grid-cols-[64px_1fr]"><div class="bg-[#F5F1E6] px-2 py-1.5 border-b border-r border-[#E4DCC9] text-[#6F6B60]">対応内容</div><div class="px-2 py-1.5 border-b border-[#E4DCC9] text-[#5B574C]">詰まりを除去し、高圧洗浄にて清掃対応。</div></div>
+          <div class="grid grid-cols-[64px_1fr]"><div class="bg-[#F5F1E6] px-2 py-1.5 border-r border-[#E4DCC9] text-[#6F6B60]">今後の対応</div><div class="px-2 py-1.5 text-[#5B574C]">定期的な点検・清掃を推奨。</div></div>
+        </div>
+        <div class="flex items-center justify-center gap-1.5 mt-3 text-[10px] text-[#5E7B4D]"><i data-lucide="check-circle-2" class="w-3.5 h-3.5"></i>編集・修正はいつでも可能</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== 目玉② 守る ===== -->
+  <section class="bg-[#3D5136]">
+    <div class="max-w-3xl mx-auto px-5 py-20 sm:py-28 text-center">
+      <div class="w-14 h-14 mx-auto rounded-2xl bg-white/10 flex items-center justify-center mb-6">
+        <i data-lucide="shield-check" class="w-7 h-7 text-[#CDE0B8]"></i>
+      </div>
+      <span class="text-xs font-bold text-[#CDE0B8] tracking-widest">POINT 02</span>
+      <h2 class="mt-3 text-2xl sm:text-4xl font-bold tracking-tight text-white leading-snug">あんたを「守る」<br>ためのアプリ</h2>
+      <p class="mt-8 text-[#E4EAD8] text-base sm:text-lg leading-loose">
+        現場で一番怖いのは、作業じゃない。<span class="text-white font-bold underline decoration-[#CDE0B8]/50 underline-offset-4">「言った・言わない」だ。</span><br>
+        「そんな説明聞いてない」「ここは頼んでない」——<br>
+        後から言われて、証拠がなくて、泣き寝入り。
+      </p>
+      <p class="mt-6 text-white text-base sm:text-lg font-medium leading-loose">
+        現場レポートは、その日の<span class="text-[#CDE0B8]">声と写真と日時をセットで残す。</span><br>
+        AIに全部任せて安心、なんて嘘だ。<br>
+        最後に自分を守るのは、自分の記録だから。
+      </p>
+    </div>
+  </section>
+
+  <!-- ===== 作り手の話 ===== -->
+  <section class="bg-white border-b border-[#EFE9DA]">
+    <div class="max-w-3xl mx-auto px-5 py-20 sm:py-24">
+      <div class="flex flex-col sm:flex-row gap-8 items-start">
+        <div class="shrink-0">
+          <div class="w-20 h-20 rounded-2xl bg-[#EAF1E1] border border-[#D8E4C8] flex items-center justify-center">
+            <i data-lucide="wrench" class="w-9 h-9 text-[#5E7B4D]"></i>
+          </div>
+        </div>
+        <div>
+          <p class="text-xs font-bold text-[#5E7B4D] tracking-widest mb-3">作り手の話</p>
+          <p class="text-[#3F3B31] text-base sm:text-lg leading-loose">
+            「AIは頭のいい人が使うもんだろ」——20年、そう思ってた設備屋です。パソコンは大の苦手。でも、報告書の時間がもったいなくて、AIに頼るしかなかった。<br><br>
+            だからこのアプリは、<span class="text-[#5E7B4D] font-medium">同じように"苦手な人"が声だけで使えること</span>を一番大事にしてます。
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Q&A ===== -->
+  <section>
+    <div class="max-w-3xl mx-auto px-5 py-20 sm:py-24">
+      <h2 class="text-2xl sm:text-3xl font-bold tracking-tight text-[#2D2A24] text-center mb-12">よくある不安</h2>
+      <div class="space-y-3">
+        <div class="bg-white rounded-2xl p-5 border border-[#ECE6D8] shadow-sm">
+          <p class="font-bold text-[#2D2A24] flex items-start gap-2 mb-2"><span class="text-[#5E7B4D]">Q.</span>AIって難しそう。</p>
+          <p class="text-sm text-[#6F6B60] leading-relaxed pl-5">覚えることはゼロ。ボタンを押して、しゃべるだけです。</p>
+        </div>
+        <div class="bg-white rounded-2xl p-5 border border-[#ECE6D8] shadow-sm">
+          <p class="font-bold text-[#2D2A24] flex items-start gap-2 mb-2"><span class="text-[#5E7B4D]">Q.</span>本当に楽になる？</p>
+          <p class="text-sm text-[#6F6B60] leading-relaxed pl-5">夜の報告書が、現場を出る前に終わります。</p>
+        </div>
+        <div class="bg-white rounded-2xl p-5 border border-[#ECE6D8] shadow-sm">
+          <p class="font-bold text-[#2D2A24] flex items-start gap-2 mb-2"><span class="text-[#5E7B4D]">Q.</span>変な文章にならない？</p>
+          <p class="text-sm text-[#6F6B60] leading-relaxed pl-5">出た報告書はその場で直せます。おかしければもう一度しゃべるだけ。</p>
+        </div>
+        <div class="bg-white rounded-2xl p-5 border border-[#ECE6D8] shadow-sm">
+          <p class="font-bold text-[#2D2A24] flex items-start gap-2 mb-2"><span class="text-[#5E7B4D]">Q.</span>お金かかる？</p>
+          <p class="text-sm text-[#6F6B60] leading-relaxed pl-5">基本無料。すべての記録を検索・保存したい人だけ有料版です。</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== 料金 ===== -->
+  <section class="bg-white border-y border-[#EFE9DA]">
+    <div class="max-w-3xl mx-auto px-5 py-20 sm:py-24">
+      <h2 class="text-2xl sm:text-3xl font-bold tracking-tight text-[#2D2A24] text-center mb-12">料金</h2>
+      <div class="grid sm:grid-cols-2 gap-5">
+        <div class="bg-[#FBF8F1] rounded-2xl p-7 border border-[#EFE9DA]">
+          <p class="text-sm text-[#8A8578] mb-1">まず試す</p>
+          <p class="text-3xl font-black text-[#2D2A24] tracking-tight mb-4">無料</p>
+          <ul class="space-y-2.5 text-sm text-[#5B574C]">
+            <li class="flex items-start gap-2"><i data-lucide="check" class="w-4 h-4 text-[#5E7B4D] mt-0.5 shrink-0"></i>まず1件、声で試す</li>
+            <li class="flex items-start gap-2"><i data-lucide="check" class="w-4 h-4 text-[#5E7B4D] mt-0.5 shrink-0"></i>報告書の作成・PDF出力</li>
+          </ul>
+        </div>
+        <div class="bg-white rounded-2xl p-7 border-2 border-[#5E7B4D] relative shadow-md">
+          <span class="absolute -top-3 left-7 bg-[#5E7B4D] text-white text-xs font-bold px-3 py-1 rounded-full">現場で毎日使うなら</span>
+          <p class="text-sm text-[#5E7B4D] mb-1">有料版</p>
+          <p class="text-3xl font-black text-[#2D2A24] tracking-tight mb-4">見返せる</p>
+          <ul class="space-y-2.5 text-sm text-[#5B574C]">
+            <li class="flex items-start gap-2"><i data-lucide="check" class="w-4 h-4 text-[#5E7B4D] mt-0.5 shrink-0"></i>すべての記録を検索・保存・閲覧</li>
+            <li class="flex items-start gap-2"><i data-lucide="check" class="w-4 h-4 text-[#5E7B4D] mt-0.5 shrink-0"></i>写真を複数枚、まとめて管理</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== 最後のひと押し ===== -->
+  <section id="cta" class="max-w-3xl mx-auto px-5 py-24 sm:py-32 text-center">
+    <div class="inline-flex items-center gap-2 bg-[#F3E7C9] text-[#9A7B2E] rounded-full px-3.5 py-1.5 mb-6 text-xs font-bold">
+      <i data-lucide="hourglass" class="w-3.5 h-3.5"></i>
+      App Storeで近日公開
+    </div>
+    <h2 class="text-3xl sm:text-4xl font-black tracking-tight text-[#2D2A24] leading-snug">
+      公開したら、<br class="sm:hidden">まっさきにあんたへ。
+    </h2>
+    <p class="mt-6 text-[#6F6B60] text-base sm:text-lg leading-relaxed">
+      いま最後の仕上げ中です。<br class="sm:hidden">
+      公開の連絡は、LINEで先にお届けします。<br>
+      <span class="text-sm text-[#8A8578]">登録した人から順に、無料で使えるようにします。</span>
+    </p>
+    <div class="mt-10">
+      <a href="https://lin.ee/SnYY4LS" class="group inline-flex items-center justify-center gap-2.5 bg-[#06C755] hover:bg-[#05b04b] text-white font-bold text-lg px-8 py-4 rounded-2xl transition-colors shadow-xl shadow-[#06C755]/25">
+        <i data-lucide="message-circle" class="w-6 h-6" stroke-width="2"></i>
+        LINEで公開のお知らせを受け取る
+        <i data-lucide="arrow-right" class="w-5 h-5 group-hover:translate-x-0.5 transition-transform" stroke-width="2"></i>
+      </a>
+      <p class="mt-4 text-xs text-[#8A8578] flex items-center justify-center gap-1.5">
+        <i data-lucide="lock" class="w-3 h-3"></i>登録は無料・ワンタップ。いつでも解除できます。
+      </p>
+    </div>
+    <div class="mt-12 pt-8 border-t border-[#E4DCC9]">
+      <p class="text-xs text-[#A39C8B] mb-4">現場でのAI活用、日々の実例はこちら</p>
+      <div class="flex flex-col sm:flex-row items-center justify-center gap-4">
+        <a href="https://www.instagram.com/setubiyaosusume/" class="w-full sm:w-auto inline-flex items-center justify-center gap-2 bg-white hover:bg-[#F5F1E6] border border-[#E4DCC9] text-[#3F3B31] px-5 py-3 rounded-xl transition-colors text-sm font-medium shadow-sm">
+          <i data-lucide="instagram" class="w-4 h-4 text-[#E1306C]"></i>
+          日々の実例｜@setubiyaosusume
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="bg-[#3D5136]">
+    <div class="max-w-5xl mx-auto px-5 py-10 flex flex-col sm:flex-row items-center justify-between gap-4">
+      <div class="flex items-center gap-2">
+        <div class="w-7 h-7 rounded-lg bg-white/15 flex items-center justify-center">
+          <i data-lucide="mic" class="w-3.5 h-3.5 text-white" stroke-width="2.5"></i>
+        </div>
+        <span class="font-bold tracking-tight text-white text-sm">現場レポート</span>
+      </div>
+      <p class="text-xs text-white/60">© 合同会社DIEGO</p>
+    </div>
+  </footer>
+
+<script>lucide.createIcons();</script>
+</body>
+</html>
