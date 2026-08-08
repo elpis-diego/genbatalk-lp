@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>プライバシーポリシー｜現場レポート</title>
+<meta name="description" content="iOSアプリ「現場レポート」のプライバシーポリシー。取得する情報、利用目的、第三者への提供、保存期間について記載しています。">
+<meta name="robots" content="index, follow">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700;900&display=swap" rel="stylesheet">
+<style>
+  :root { --bg:#F5EFE2; --ink:#2D2A24; --sub:#5E5A50; --green:#4A6340; --line:#E4DCC9; --card:#fff; }
+  * { box-sizing:border-box; }
+  body { font-family:'Noto Sans JP',sans-serif; background:var(--bg); color:var(--ink);
+         margin:0; line-height:1.9; -webkit-font-smoothing:antialiased; }
+  .wrap { max-width:760px; margin:0 auto; padding:0 20px 80px; }
+  nav { position:sticky; top:0; background:rgba(245,239,226,.9); backdrop-filter:blur(8px);
+        border-bottom:1px solid var(--line); }
+  nav .inner { max-width:760px; margin:0 auto; padding:0 20px; height:56px;
+               display:flex; align-items:center; justify-content:space-between; }
+  nav a.home { color:var(--green); font-size:13px; font-weight:500; text-decoration:none; }
+  nav .brand { font-weight:700; letter-spacing:-.01em; }
+  h1 { font-size:26px; font-weight:900; margin:44px 0 6px; letter-spacing:-.01em; }
+  .updated { color:var(--sub); font-size:13px; margin:0 0 32px; }
+  h2 { font-size:17px; font-weight:700; margin:38px 0 10px; padding-left:12px;
+       border-left:4px solid var(--green); }
+  p, li { font-size:15px; color:var(--ink); }
+  ul { padding-left:22px; }
+  li { margin:6px 0; }
+  .card { background:var(--card); border:1px solid var(--line); border-radius:14px;
+          padding:18px 20px; margin:16px 0; }
+  .note { color:var(--sub); font-size:13.5px; }
+  table { width:100%; border-collapse:collapse; margin:14px 0; font-size:14px; }
+  th, td { border:1px solid var(--line); padding:10px 12px; text-align:left; vertical-align:top; }
+  th { background:#EDE6D6; font-weight:700; white-space:nowrap; }
+  .scroller { overflow-x:auto; }
+  a { color:var(--green); }
+  footer { border-top:1px solid var(--line); margin-top:56px; padding-top:24px;
+           color:var(--sub); font-size:13px; }
+</style>
+</head>
+<body>
+
+<nav>
+  <div class="inner">
+    <span class="brand">現場レポート</span>
+    <a class="home" href="./">← トップへ戻る</a>
+  </div>
+</nav>
+
+<div class="wrap">
+
+  <h1>プライバシーポリシー</h1>
+  <p class="updated">最終更新日：2026年7月30日</p>
+
+  <p>
+    合同会社DIEGO（以下「当社」）は、iOSアプリ「現場レポート」（以下「本アプリ」）における
+    利用者の情報の取り扱いについて、以下のとおり定めます。
+  </p>
+
+  <div class="card">
+    <p style="margin:0;">
+      <strong>はじめに、いちばん大事なこと。</strong><br>
+      本アプリは、利用者のアカウント登録を求めません。氏名・メールアドレス・電話番号を
+      当社が収集することはありません。作成した報告書・写真・録音内容は、原則として
+      お使いのiPhoneの中だけに保存されます。
+    </p>
+  </div>
+
+  <h2>1. 取得する情報と利用目的</h2>
+
+  <div class="scroller">
+  <table>
+    <tr>
+      <th>情報</th><th>取得の有無・保存先</th><th>利用目的</th>
+    </tr>
+    <tr>
+      <td>音声（録音）</td>
+      <td>端末内で文字に変換。<strong>音声そのものは保存も送信もしません</strong></td>
+      <td>話した内容を文字にするため</td>
+    </tr>
+    <tr>
+      <td>報告書の文章</td>
+      <td>端末内に保存。文章を整えるときのみ外部AIへ送信</td>
+      <td>報告書・お客様向け文章の作成</td>
+    </tr>
+    <tr>
+      <td>写真</td>
+      <td>端末内に保存。「データを読み取る」を押したときのみ外部AIへ送信</td>
+      <td>報告書への添付、機器の数値の読み取り</td>
+    </tr>
+    <tr>
+      <td>端末識別子</td>
+      <td>当社サーバーで利用回数の管理にのみ使用</td>
+      <td>無料版の月間利用回数の判定</td>
+    </tr>
+    <tr>
+      <td>購入情報</td>
+      <td>Appleが発行する購入証明を検証のため送信</td>
+      <td>有料プランの有効性の確認</td>
+    </tr>
+  </table>
+  </div>
+
+  <p class="note">
+    端末識別子は iOS が提供する「ベンダー識別子（identifierForVendor）」で、
+    個人を特定するものではありません。本アプリを削除すると変化します。
+  </p>
+
+  <h2>2. 外部サービスへの送信</h2>
+  <p>
+    報告書の作成やデータの読み取りを行う際、入力された文章および対象の写真を、
+    文章生成のために以下の事業者へ送信します。
+  </p>
+  <ul>
+    <li><strong>Anthropic, PBC</strong>（AIによる文章生成・画像の読み取り）
+      — <a href="https://www.anthropic.com/legal/privacy" target="_blank" rel="noopener">プライバシーポリシー</a></li>
+    <li><strong>Cloudflare, Inc.</strong>（当社が運用する中継サーバーの基盤）
+      — <a href="https://www.cloudflare.com/privacypolicy/" target="_blank" rel="noopener">プライバシーポリシー</a></li>
+  </ul>
+  <p>
+    Anthropic社は、APIを通じて送信されたデータをAIモデルの学習に使用しません。
+    送信される内容には、利用者が入力した現場情報（顧客名や現場名を含む場合があります）が
+    含まれ得ますので、必要のない個人情報は入力しないようご注意ください。
+  </p>
+
+  <h2>3. 当社サーバーでの取り扱い</h2>
+  <p>
+    当社が運用する中継サーバーは、利用回数の管理のために端末識別子と当月の利用回数のみを保持します。
+    報告書の本文・写真・音声をサーバーに保存することはありません。
+    利用回数の記録は約2か月で自動的に削除されます。
+  </p>
+
+  <h2>4. 第三者提供</h2>
+  <p>
+    当社は、法令に基づく場合を除き、取得した情報を第三者に提供または販売しません。
+    広告配信・行動追跡・アクセス解析のための第三者ツールは一切組み込んでいません。
+  </p>
+
+  <h2>5. 保存期間と削除</h2>
+  <ul>
+    <li>端末内のデータ（報告書・写真・台帳）は、本アプリを削除すると一緒に削除されます。</li>
+    <li>台帳の各記録は、アプリ内で個別に削除できます。</li>
+    <li>サーバー側の利用回数の記録は、約2か月で自動削除されます。</li>
+  </ul>
+
+  <h2>6. 権限（許可）について</h2>
+  <ul>
+    <li><strong>マイク・音声認識</strong>：話した内容を文字にするために使用します。</li>
+    <li><strong>カメラ・写真</strong>：報告書に添付する写真の撮影・選択に使用します。</li>
+  </ul>
+  <p class="note">
+    いずれも iPhone の「設定」からいつでも許可を取り消せます。
+    取り消した場合、その機能はご利用いただけません。
+  </p>
+
+  <h2>7. 子どもの利用について</h2>
+  <p>
+    本アプリは業務用途を想定しており、13歳未満の方の利用を想定していません。
+    13歳未満の方から意図的に情報を取得することはありません。
+  </p>
+
+  <h2>8. 有料プランについて</h2>
+  <p>
+    有料プラン（Pro）の決済は Apple を通じて行われ、当社がクレジットカード情報等の
+    決済情報を取得することはありません。解約は iPhone の
+    「設定 &gt; Apple ID &gt; サブスクリプション」から行えます。
+  </p>
+
+  <h2>9. 本ポリシーの変更</h2>
+  <p>
+    内容を変更する場合は、本ページに最新版を掲載します。
+    重要な変更の際は、アプリ内でお知らせします。
+  </p>
+
+  <h2>10. お問い合わせ</h2>
+  <div class="card">
+    <p style="margin:0;">
+      合同会社DIEGO<br>
+      メール：<a href="mailto:elpis.diego@gmail.com">elpis.diego@gmail.com</a>
+    </p>
+  </div>
+
+  <footer>
+    © 合同会社DIEGO
+  </footer>
+
+</div>
+
+</body>
+</html>
